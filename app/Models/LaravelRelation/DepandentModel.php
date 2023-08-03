@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class DepandentModel extends Model
 {
     use HasFactory;
+    protected $table = 'dependents';
 }
